@@ -10,8 +10,10 @@
 
   <ItemGroup>
     <None Remove="ioManagement\" />
+    <None Remove="computation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ioManagement\" />
+    <Folder Include="computation\" />
   </ItemGroup>
 </Project>
