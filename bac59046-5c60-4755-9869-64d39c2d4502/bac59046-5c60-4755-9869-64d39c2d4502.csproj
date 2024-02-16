@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ioManagement\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ioManagement\" />
+  </ItemGroup>
 </Project>
