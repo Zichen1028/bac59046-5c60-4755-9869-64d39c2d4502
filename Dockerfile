@@ -9,3 +9,5 @@ RUN dotnet restore
 
 # Build the project
 RUN dotnet build
+
+RUN dotnet run
