@@ -6,6 +6,7 @@
     <RootNamespace>bac59046_5c60_4755_9869_64d39c2d4502</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
 
   <ItemGroup>
