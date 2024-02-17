@@ -11,3 +11,5 @@ RUN dotnet restore
 RUN dotnet build
 
 RUN dotnet run --project ./bac59046-5c60-4755-9869-64d39c2d4502
+
+RUN dotnet test ./UnitTests
