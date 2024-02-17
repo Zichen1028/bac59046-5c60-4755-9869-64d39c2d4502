@@ -2,7 +2,8 @@
 {
     static void Main(string[] args)
     {
-        string filePath = @"../../../Input.txt";
+        //string filePath = @"../../../Input.txt";
+        string filePath = @"Input.txt";
         InputReader inputReader = new InputReader(filePath);
         int[] inputArr = inputReader.readInput();
 
