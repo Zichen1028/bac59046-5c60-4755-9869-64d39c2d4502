@@ -10,4 +10,4 @@ RUN dotnet restore
 # Build the project
 RUN dotnet build
 
-RUN dotnet run
+RUN dotnet run --project ./bac59046-5c60-4755-9869-64d39c2d4502
