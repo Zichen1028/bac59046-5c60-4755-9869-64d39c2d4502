@@ -2,7 +2,8 @@
 {
     static void Main(string[] args)
     {
-        InputReader inputReader = new InputReader();
+        string filePath = @"../../../Input.txt";
+        InputReader inputReader = new InputReader(filePath);
         int[] inputArr = inputReader.readInput();
 
         SolutionAlgorithm solutionAlgorithm = new SolutionAlgorithm();
