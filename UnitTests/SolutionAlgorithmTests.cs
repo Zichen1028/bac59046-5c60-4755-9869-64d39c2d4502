@@ -48,7 +48,6 @@ public class SolutionAlgorithmTests
         List<string> linesList = new List<string>();
         foreach (var line in lines)
         {
-            Console.WriteLine("\t###########" + line);
             linesList.Add(line);
         }
 
