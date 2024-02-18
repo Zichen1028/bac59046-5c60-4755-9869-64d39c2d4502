@@ -32,7 +32,6 @@ public class SolutionAlgorithmTests
             List<int> resultInts = new List<int>();
             for (int j = indexStart; j < indexEnd; j++)
             {
-                Console.WriteLine(inputIntsArr[j]);
                 resultInts.Add(inputIntsArr[j]);
             }
 
