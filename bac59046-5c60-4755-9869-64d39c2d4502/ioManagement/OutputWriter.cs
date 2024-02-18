@@ -12,10 +12,14 @@
 	{
 		int indexStart = outputArr[0];
 		int indexEnd = outputArr[1];
-        for (int i = indexStart; i < indexEnd; i++)
+		Console.WriteLine("#####################Solution output starts#####################");
+
+		for (int i = indexStart; i < indexEnd; i++)
         {
             Console.WriteLine(originArr[i]);
         }
+
+        Console.WriteLine("#####################Solution output ends#####################");
     }
 }
 
