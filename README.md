@@ -2,22 +2,18 @@
 Develop a function that takes one string input of any number of integers separated by a single whitespace. The function then outputs the longest increasing subsequence (increased by any number) present in that sequence. If more than 1 sequence exists with the longest length, output the earliest one. You may develop supporting functions as many as you find reasonable.
 
 ### Test Cases
-<details>
-  <summary>Test case 1</summary> 
-
-Input
-``` 
-6 1 5 9 2
-```
-Output
-```
-1 5 9
-```
-</details>
+**All 11 test cases are fully covered by the unit tests
 
 ## Requirements
 For building and running the application you need:
 .NET core 7.0
 
 ## Running the application locally
-* Execute the main method in the Program class from the IDE.
+* You can pull the repo from GitHub to build and run
+* or you can retrieve the docker image here: https://github.com/zichen1028/bac59046-5c60-4755-9869-64d39c2d4502/pkgs/container/bac59046-5c60-4755-9869-64d39c2d4502
+
+### Run the console project
+* In the root directory, run the command **dotnet run --project ./bac59046-5c60-4755-9869-64d39c2d4502**
+### Run the unit tests
+* In the root directory, run the command **dotnet test ./UnitTests**
+
