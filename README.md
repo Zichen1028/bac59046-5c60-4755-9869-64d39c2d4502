@@ -2,7 +2,7 @@
 Develop a function that takes one string input of any number of integers separated by a single whitespace. The function then outputs the longest increasing subsequence (increased by any number) present in that sequence. If more than 1 sequence exists with the longest length, output the earliest one. You may develop supporting functions as many as you find reasonable.
 
 ### Test Cases
-* All 11 test cases in the code-test.txt instruction are fully covered by the unit tests
+* All 11 test cases in the code-test instruction are fully covered by the unit tests
 
 ### Continuous integration
 * The automation CI is created by GitHub Actions (only for main branch)
